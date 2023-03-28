@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  li{
+    list-style: none;
+  }
+
+  .container {
+    margin: auto;
+    padding-top: 100px;
+    width: 1400px;
+    /* height: 20000px; */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background.png) no-repeat fixed center top;
+    background-position: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+  }
+
+
+
+.navbar {
+  padding-top: 30px;
+  float: right;
+}
+
+nav {
+  display: inline-block;
+}
+nav ul li {
+  list-style: none;
+  float: left;
+ 
+}
+nav ul li a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+.menu-icon {
+  width: 30px;
+  margin-left: 40px;
+
+}
+
+.dh{
+  background-image: url(../img/ml.png);
+  background-size: cover;
+  width: 180px;
+  height: 300px;
+  position: sticky;
+  float: right;
+  top: 40%;
+  border: 1px solid black;
+
+}
+.dh :first-child{
+  margin-top: 120px;
+  padding-left: 30px;
+
+}
+.dh li{
+  margin-top: 45px;
+  padding-left: 30px;
+
+}
+.container h1{
+  color: white;
+}
+.container p{
+  color: white;
+  text-indent:2em;
+  margin-right: 60px;
+}
+.container h2{
+  margin-top: 50px;
+  color: white;
+}
+.container h3{
+  margin-top: 40px;
+  color: white;
+}
